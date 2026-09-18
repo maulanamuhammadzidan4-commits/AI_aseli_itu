@@ -16,7 +16,7 @@ VisionRunningMode = mp.tasks.vision.RunningMode
 
 options = FaceLandmarkerOptions(
     base_options=BaseOptions(
-        model_asset_path=MODEL_FILEextract_features
+        model_asset_path=MODEL_FILE
     ),
     running_mode=VisionRunningMode.IMAGE,
     num_faces=1
